@@ -1,0 +1,107 @@
+[
+  {
+    "pathology": "Atelectasis",
+    "image": "00014687_001.png",
+    "probability": 0.7670592069625854,
+    "threshold": 0.34,
+    "positive_prediction": true,
+    "gt_box_xywh_320": [
+      226.94915254237281,
+      154.67231879800062,
+      44.067796610169374,
+      17.288135593220343
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.2519,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Atelectasis.png"
+  },
+  {
+    "pathology": "Cardiomegaly",
+    "image": "00005066_030.png",
+    "probability": 0.7789841890335083,
+    "threshold": 0.67,
+    "positive_prediction": true,
+    "gt_box_xywh_320": [
+      86.61016949152531,
+      143.48587812003439,
+      168.81355932203405,
+      94.23728813559313
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.6587,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Cardiomegaly.png"
+  },
+  {
+    "pathology": "Effusion",
+    "image": "00005066_030.png",
+    "probability": 0.4516627788543701,
+    "threshold": 0.22,
+    "positive_prediction": true,
+    "gt_box_xywh_320": [
+      46.755555555555624,
+      227.65629882812502,
+      8.533333333333344,
+      20.622222222222216
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.1148,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Effusion.png"
+  },
+  {
+    "pathology": "Mass",
+    "image": "00013659_019.png",
+    "probability": 0.28835660219192505,
+    "threshold": 0.19,
+    "positive_prediction": true,
+    "gt_box_xywh_320": [
+      174.75555555555562,
+      52.36740993923625,
+      32.0,
+      42.66666666666656
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.5647,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Mass.png"
+  },
+  {
+    "pathology": "Nodule",
+    "image": "00001688_000.png",
+    "probability": 0.2350163608789444,
+    "threshold": 0.2,
+    "positive_prediction": true,
+    "gt_box_xywh_320": [
+      208.5925925925925,
+      86.34920634920626,
+      38.26455026455031,
+      47.06878306878313
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.0,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Nodule.png"
+  },
+  {
+    "pathology": "Pneumonia",
+    "image": "00011136_002.png",
+    "probability": 0.03457685559988022,
+    "threshold": 0.05,
+    "positive_prediction": false,
+    "gt_box_xywh_320": [
+      179.37777777777782,
+      179.656298828125,
+      71.8222222222222,
+      51.91111111111125
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.23,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Pneumonia.png"
+  },
+  {
+    "pathology": "Pneumothorax",
+    "image": "00013659_019.png",
+    "probability": 0.2023756057024002,
+    "threshold": 0.29000000000000004,
+    "positive_prediction": false,
+    "gt_box_xywh_320": [
+      91.19999999999999,
+      26.411854383680563,
+      33.42222222222219,
+      15.644444444444439
+    ],
+    "sanity_hot_pixels_in_box_fraction": 0.2638,
+    "saved_path": "/kaggle/working/gradcam_samples/gradcam_Pneumothorax.png"
+  }
+]

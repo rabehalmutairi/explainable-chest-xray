@@ -1,0 +1,28 @@
+{
+  "target_layer": "features[7]",
+  "layer_candidates": [
+    "features[5]",
+    "features[7]"
+  ],
+  "cam_threshold_T_star": 0.15,
+  "per_class_thresholds": {
+    "Atelectasis": 0.45,
+    "Cardiomegaly": 0.15,
+    "Effusion": 0.35,
+    "Mass": 0.55,
+    "Nodule": 0.75,
+    "Pneumonia": 0.25,
+    "Pneumothorax": 0.3
+  },
+  "selection_criterion": "argmax mean IoU on loc_tune (NOT mean IoBB - degenerate)",
+  "reported_metric": "IoBB",
+  "report_thresholds": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "tuned_on": "loc_tune",
+  "reported_on": "loc_report",
+  "n_tune_pairs": 336,
+  "n_report_pairs": 332
+}
