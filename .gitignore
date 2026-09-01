@@ -228,3 +228,7 @@ images/
 # Credentials
 kaggle.json
 .kaggle/
+
+# Local-only: sample X-rays and inference checkpoint (data/weights, not code)
+samples/
+models/
