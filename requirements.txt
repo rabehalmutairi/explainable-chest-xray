@@ -1,3 +1,4 @@
+# Training and evaluation
 numpy
 pandas
 scikit-learn
@@ -5,3 +6,14 @@ Pillow
 torch
 torchvision
 matplotlib
+
+# Inference API
+fastapi
+uvicorn
+python-multipart
+
+# Interface
+streamlit
+plotly
+fpdf2
+requests
